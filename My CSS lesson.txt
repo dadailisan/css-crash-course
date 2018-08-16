@@ -1,0 +1,82 @@
+3 methods for adding CSS
+--InLine CSS: Directly in the html element(NO!) <-- not a good practice
+--Internal CSS: Using <style> tags within a single document
+--External CSS: Lingking an external .css file <-- the good practice
+
+CSS Selectors
+
+a { background-color:yellow; }
+
+a -- is the selector
+{ -- is the declaration start
+background-color -- is the property
+: -- is the property/value separator
+yellow -- is the value
+; -- is the declaration separator
+} -- is the declaration end
+
+* -- this kind of selector tells that it applies to all
+
+SOME PROPERTIES
+background-color -- background color
+color -- text/font color
+font-family -- apply font on text
+font-size -- font size
+font-weight -- font thickness
+line-height -- top & bottom spacing of text
+margin -- outmost region or outside of border. controls margins
+border -- middle region.
+padding -- inner region or inside of border.
+
+
+Web Safe font(font-family) -- search on net
+
+id -- are unique
+#id -- to be used on css file
+
+class -- can be reused
+.class -- to be used on css file
+
+.container -- when dealing with container class, width should have value on percentage(%) to make it more responsive.
+
+
+Margin & Padding Shorthand
+>long method
+p{
+margin-top:5px;
+margin-bottom:5px;
+margin-right:10px;
+margin-left:10px;
+}
+
+>shorter method. top right bottom left
+p{
+margin:5px10px5px10px
+
+>shortest method if top = bottom and left = right
+p{
+margin:5px10px
+
+>if all margins are equal
+p{
+margin:10px
+}
+
+Positioning in CSS
+>Static -- this is the default
+>Relative --positioned relative to its normal position
+>Absolute --allows us to target what position we want inside of a relative element
+>Fixed --fixed position in the browser, not affected by scrolling
+>Initial --sets the property to its default value
+>Inherit --will inherit the property of its parent
+
+at the end of the CSS3 tutorials, we created a dummy responsive website.
+using HTML5 semantics
+>header
+>nav
+>section
+>aside
+>footer
+
+There are a lot if things on the tutorials and there are more thats not part of it.
+It's good to check the tutorial again to refresh.
